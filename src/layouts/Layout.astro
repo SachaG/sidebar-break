@@ -1,0 +1,59 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="The five best design links, every weekday." />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<div class="content">
+
+		<main>
+		<svg class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="180" viewBox="0 0 180 180"><rect width="180" height="180" fill="#F36C3D"></rect><rect x="54" y="46" width="72" height="8" fill="white"></rect><rect x="54" y="86" width="72" height="8" fill="white"></rect><rect x="54" y="126" width="72" height="8" fill="white"></rect><rect x="90" y="106" width="48" height="8" fill="white"></rect><rect x="42" y="66" width="48" height="8" fill="white"></rect><rect x="42" y="26" width="48" height="8" fill="white" fill-opacity="0.2"></rect><rect x="90" y="6" width="48" height="8" fill="white" fill-opacity="0.2"></rect><rect x="90" y="146" width="48" height="8" fill="white" fill-opacity="0.2"></rect><rect x="42" y="166" width="48" height="8" fill="white" fill-opacity="0.2"></rect><rect x="150" y="106" width="30" height="8" fill="white" fill-opacity="0.2"></rect><rect x="150" y="146" width="30" height="8" fill="white" fill-opacity="0.2"></rect><rect x="150" y="6" width="30" height="8" fill="white" fill-opacity="0.2"></rect><rect x="102" y="66" width="78" height="8" fill="white" fill-opacity="0.2"></rect><rect x="102" y="26" width="78" height="8" fill="white" fill-opacity="0.2"></rect><rect x="102" y="166" width="78" height="8" fill="white" fill-opacity="0.2"></rect><rect y="66" width="30" height="8" fill="white" fill-opacity="0.2"></rect><rect y="166" width="30" height="8" fill="white" fill-opacity="0.2"></rect><rect y="26" width="30" height="8" fill="white" fill-opacity="0.2"></rect><rect x="138" y="86" width="42" height="8" fill="white" fill-opacity="0.2"></rect><rect y="86" width="42" height="8" fill="white" fill-opacity="0.2"></rect><rect x="138" y="46" width="42" height="8" fill="white" fill-opacity="0.2"></rect><rect y="46" width="42" height="8" fill="white" fill-opacity="0.2"></rect><rect x="138" y="126" width="42" height="8" fill="white" fill-opacity="0.2"></rect><rect y="126" width="42" height="8" fill="white" fill-opacity="0.2"></rect><rect y="106" width="78" height="8" fill="white" fill-opacity="0.2"></rect><rect y="146" width="78" height="8" fill="white" fill-opacity="0.2"></rect><rect y="6" width="78" height="8" fill="white" fill-opacity="0.2"></rect></svg>
+		<slot />
+	</main>
+</div>
+</body>
+</html>
+
+<style is:global lang="scss">
+	body {
+		background: #f36c3d;
+		padding: 20px;
+		font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+		font-size: 18px;
+		line-height: 1.8;
+	}	
+	.content {
+		background: white;
+		min-height: 100%;
+		padding: 40px;
+	}
+	main {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	.logo {
+		margin: 0 auto;
+		display: block;
+	}
+	h1 {
+		text-align: center;
+	}
+	a, a:link, a:visited {
+		color: #f36c3d;
+		font-weight: bold;
+		text-decoration: none;
+	}
+</style>
