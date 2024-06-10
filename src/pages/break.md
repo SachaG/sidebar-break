@@ -57,9 +57,28 @@ For that reason, any sale would have to be to someone that the Sidebar audience 
 
 #### When is Sidebar coming back?
 
-It might be a few months until I can clear my plate and circle back to working on Sidebar again.
+It might be a few months until I can clear my plate and circle back to working on Sidebar again. Hopefully once I manage to have a couple weeks of free time ahead of me I can come back to the site and give it the attention it deserves.
 
-I'm going to keep the current Sidebar site up at [archive.sidebar.io](https://archive.sidebar.io), but pause the newsletter. Hopefully once I manage to have a couple weeks of free time ahead of me I can come back to the site and give it the attention it deserves.
+#### Can I still see the old links?
+
+I'm going to keep the current Sidebar site up at [archive.sidebar.io](https://archive.sidebar.io). Just this one time, you might have to ignore an SSL warning or two until I can figure out how to set up that domain name properly…
+
+#### Where can I get my fix of new design links in the meantime?
+
+There are still some great sites and newsletters out there for design news and links:
+
+- [CoDrops Collective](https://tympanus.net/codrops/collective/)
+- [HeyDesigner](https://heydesigner.com/)
+- [WebDesignerNews](https://webdesignernews.com/)
+- [FlowingData](https://flowingdata.com/)
+- [Kottke.org](https://kottke.org/)
+- [Frontend Dogma](https://frontenddogma.com/)
+- [Frontend Front](https://frontendfront.com/)
+- [Brand New](https://www.underconsideration.com/brandnew/)
+- [Colossal](https://www.thisiscolossal.com/)
+- [The Brand Identity](https://the-brandidentity.com/)
+
+Look at that. I guess I just can't stop myself from compiling design links after all…
 
 ## Thanks
 
