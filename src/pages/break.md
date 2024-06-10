@@ -57,7 +57,7 @@ For that reason, any sale would have to be to someone that the Sidebar audience 
 
 ## Next Steps
 
-I'm going to keep the current Sidebar site up at [archive.sidebar.io](https://archive.sidebar.io), but pause the newsletter. Hopefully once I have a couple weeks of free time ahead of me I can come back to the site and give it the fresh coat of paint it deserves.
+I'm going to keep the current Sidebar site up at [archive.sidebar.io](https://archive.sidebar.io), but pause the newsletter. Hopefully once I have a couple weeks of free time ahead of me I can come back to the site and give it the fresh coat of paint it deserves. In the meantime, let's [keep in touch](https://hachyderm.io/@sachagreif) on Mastodon.
 
 If you've made it this far, then I'm going to assume you've read or subscribed to Sidebar at some point in the past decade. In which case: thank you! I've loved running this little site all that time, and only wish I could've done an even better job.
 
